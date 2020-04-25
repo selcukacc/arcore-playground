@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/MainScene.unity
     guid: 1ee8a082946ffd34aacd4d2d5bcf753f
   - enabled: 0
-    path: Assets/GoogleARCore/Examples/ObjectManipulation/Scenes/ObjectManipulation.unity
+    path: Assets/Prefabs/ObjectManipulation.unity
     guid: 9dba7e74f4d2b410f90b920f80528d44
   m_configObjects: {}
