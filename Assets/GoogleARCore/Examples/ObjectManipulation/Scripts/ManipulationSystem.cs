@@ -151,6 +151,11 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// </summary>
         public void Update()
         {
+            if (MainARController.FixingPosition)
+            {
+                Deselect();
+                enabled = false;
+            }
             DragGestureRecognizer.Update();
             PinchGestureRecognizer.Update();
             TwoFingerDragGestureRecognizer.Update();
