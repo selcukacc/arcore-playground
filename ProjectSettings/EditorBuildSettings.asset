@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MainScene.unity
     guid: 1ee8a082946ffd34aacd4d2d5bcf753f
   - enabled: 0
     path: Assets/Prefabs/ObjectManipulation.unity
     guid: 9dba7e74f4d2b410f90b920f80528d44
+  - enabled: 1
+    path: Assets/Prefabs/DemoScene.unity
+    guid: e6a6fa04348cb45c9b0221eb19c946da
   m_configObjects: {}
